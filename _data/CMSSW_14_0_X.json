@@ -155,13 +155,16 @@
                 "el8_amd64_gcc12": "IB/CMSSW_14_0_X_2024-02-04-0000/el8_amd64_gcc12", 
                 "slc7_amd64_gcc12": "IB/CMSSW_14_0_X_2024-02-04-0000/slc7_amd64_gcc12"
             }, 
-            "piechart": "inprogress", 
+            "piechart": {
+                "status": "passed", 
+                "data": "el8_amd64_gcc12/11834.21/step3_cpu.resources"
+            }, 
             "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
             "igprof": "found", 
             "reco_event_loop": "inprogress", 
-            "profiling": "inprogress", 
+            "profiling": "found", 
             "crab_tests": "inprogress", 
             "base_branch": "CMSSW_14_0_X", 
             "compared_tags": "CMSSW_14_0_X_2024-02-03-1100-->CMSSW_14_0_X_2024-02-04-0000", 
@@ -190,7 +193,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc12/www/sun/14.0-sun-00/CMSSW_14_0_X_2024-02-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1681, 
+                        "num_passed": 2484, 
                         "known_failed": 0, 
                         "num_failed": 2
                     }
@@ -264,7 +267,7 @@
                     "passed": "passed"
                 }
             ], 
-            "lizard": "inprogress", 
+            "lizard": "found", 
             "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
