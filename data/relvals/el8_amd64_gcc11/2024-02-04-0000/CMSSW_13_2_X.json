@@ -1702,6 +1702,39 @@
     },
     {
         "exitcode": 0,
+        "id": "8.0",
+        "known_error": 0,
+        "name": "BeamHalo",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 17
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 447
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "8.1",
         "known_error": 0,
         "name": "BeamHalo_UP18",
@@ -20796,6 +20829,23 @@
     },
     {
         "exitcode": 0,
+        "id": "2500.211",
+        "known_error": 0,
+        "name": "NANOdata124Xrun3",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "2500.3",
         "known_error": 0,
         "name": "NANOmc130X",
@@ -22446,6 +22496,34 @@
     },
     {
         "exitcode": 0,
+        "id": "10824.5",
+        "known_error": 0,
+        "name": "TTbar_13+2018_pixelTrackingOnly",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 39
+            },
+            {
+                "errors": 17,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "10824.501",
         "known_error": 0,
         "name": "TTbar_13+2018_Patatrack_PixelOnlyCPU",
@@ -22497,6 +22575,46 @@
                 "errors": 17,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10824.511",
+        "known_error": 0,
+        "name": "TTbar_13+2018_Patatrack_ECALOnlyCPU",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10824.521",
+        "known_error": 0,
+        "name": "TTbar_13+2018_Patatrack_HCALOnlyCPU",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
             }
         ]
     },
@@ -22687,6 +22805,26 @@
                 "errors": 8,
                 "status": "PASSED",
                 "warnings": 20
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10842.501",
+        "known_error": 0,
+        "name": "ZMM_13+2018_Patatrack_PixelOnlyCPU",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
             }
         ]
     },
