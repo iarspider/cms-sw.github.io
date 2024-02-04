@@ -47,6 +47,29 @@
     },
     {
         "exitcode": 0,
+        "id": "3.0",
+        "known_error": 0,
+        "name": "ProdQCD_Pt_3000_3500",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 56
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.17",
         "known_error": 0,
         "name": "RunMinBias2011A",
@@ -1528,6 +1551,29 @@
     },
     {
         "exitcode": 0,
+        "id": "121.0",
+        "known_error": 0,
+        "name": "TTbar",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 13
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 24
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 33
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "122.0",
         "known_error": 0,
         "name": "UpsMM",
@@ -1834,6 +1880,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 51
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "133.0",
+        "known_error": 0,
+        "name": "RSGrav",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 120
             }
         ]
     },
@@ -8911,6 +8980,29 @@
     },
     {
         "exitcode": 0,
+        "id": "1303.0",
+        "known_error": 0,
+        "name": "ProdQCD_Pt_3000_3500_13",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 58
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1306.0",
         "known_error": 0,
         "name": "SingleMuPt1_UP15",
@@ -12519,6 +12611,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 30
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10224.15",
+        "known_error": 0,
+        "name": "TTbar_13+2017PU_JMENano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
+            },
+            {
+                "errors": 22,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 47
             }
         ]
     },
@@ -16256,6 +16381,75 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 40
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25408.17",
+        "known_error": 0,
+        "name": "SMS-T1tttt_mGl-1500_mLSP-100_13",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25408.18",
+        "known_error": 0,
+        "name": "SMS-T1tttt_mGl-1500_mLSP-100_13",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 60
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25409.17",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000HS_13",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 42
             }
         ]
     },
