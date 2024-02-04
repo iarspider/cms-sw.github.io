@@ -61,7 +61,7 @@
             }, 
             "cmsdist_compared_tags": {
                 "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2024-02-04-0000/slc6_amd64_gcc530..IB/CMSSW_8_0_X_2024-02-04-0000/slc6_amd64_gcc530", 
-                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2024-01-28-0000/slc7_amd64_gcc530..IB/CMSSW_8_0_X_2024-02-04-0000/slc7_amd64_gcc530"
+                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2024-02-04-0000/slc7_amd64_gcc530..IB/CMSSW_8_0_X_2024-02-04-0000/slc7_amd64_gcc530"
             }, 
             "cmsdistTags": {
                 "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2024-02-04-0000/slc6_amd64_gcc530", 
@@ -184,15 +184,9 @@
         {
             "comp_baseline_state": "errors", 
             "python3_tests": [], 
-            "tests_archs": [
-                "slc7_amd64_gcc530"
-            ], 
-            "cmsdist_merged_prs": {
-                "slc7_amd64_gcc530": []
-            }, 
-            "cmsdist_compared_tags": {
-                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2024-01-28-0000/slc7_amd64_gcc530..IB/CMSSW_8_0_X_2024-01-28-0000/slc7_amd64_gcc530"
-            }, 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
             "cmsdistTags": {
                 "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2024-01-28-0000/slc6_amd64_gcc530", 
                 "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2024-01-28-0000/slc7_amd64_gcc530"
@@ -204,16 +198,7 @@
             "crab_tests": "not-found", 
             "compared_tags": "CMSSW_8_0_31-->CMSSW_8_0_X_2024-01-28-0000", 
             "dqm_tests": "found", 
-            "utests": [
-                {
-                    "arch": "slc7_amd64_gcc530", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2024-01-28-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "26"
-                    }
-                }
-            ], 
+            "utests": [], 
             "ib_date": "2024-01-28-0000-0000", 
             "relvals": [], 
             "igprof": "not-found", 
@@ -448,12 +433,7 @@
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [
-                {
-                    "arch": "slc7_amd64_gcc530", 
-                    "passed": "passed"
-                }
-            ], 
+            "dupDict": [], 
             "static_checks_failures": "not-found", 
             "static_checks": "not-found", 
             "isIB": true, 

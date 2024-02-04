@@ -48,7 +48,7 @@
         }, 
         "slc7_amd64_gcc530": {
             "status": "unknown", 
-            "latest_IB": "CMSSW_8_0_X_2024-01-28-0000"
+            "latest_IB": "CMSSW_8_0_X_2024-02-04-0000"
         }
     }, 
     "CMSSW_12_6_X": {
@@ -70,7 +70,7 @@
         }, 
         "slc7_amd64_gcc10": {
             "status": "unknown", 
-            "latest_IB": "CMSSW_12_6_X_2024-01-28-0000"
+            "latest_IB": "CMSSW_12_6_X_2024-02-04-0000"
         }
     }, 
     "CMSSW_14_0_DEVEL_X": {
@@ -88,7 +88,7 @@
     "CMSSW_9_4_X": {
         "slc7_amd64_gcc630": {
             "status": "unknown", 
-            "latest_IB": "CMSSW_9_4_X_2024-01-28-0000"
+            "latest_IB": "CMSSW_9_4_X_2024-02-04-0000"
         }, 
         "slc6_amd64_gcc630": {
             "status": "unknown", 
@@ -194,7 +194,7 @@
         }, 
         "slc7_amd64_gcc11": {
             "status": "unknown", 
-            "latest_IB": "CMSSW_13_2_X_2024-01-28-0000"
+            "latest_IB": "CMSSW_13_2_X_2024-02-04-0000"
         }, 
         "el8_aarch64_gcc11": {
             "status": "unknown", 
@@ -286,7 +286,7 @@
         }, 
         "slc7_amd64_gcc11": {
             "status": "unknown", 
-            "latest_IB": "CMSSW_13_1_X_2024-01-28-0000"
+            "latest_IB": "CMSSW_13_1_X_2024-02-04-0000"
         }, 
         "el8_aarch64_gcc11": {
             "status": "unknown", 
