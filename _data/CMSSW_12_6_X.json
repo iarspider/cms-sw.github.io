@@ -121,7 +121,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/sun/12.6-sun-00/CMSSW_12_6_X_2024-02-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 218, 
+                        "num_passed": 1552, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -352,14 +352,7 @@
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
-            "fwlite": [
-                {
-                    "arch": "el8_amd64_gcc10", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/sun/12.6-sun-00/CMSSW_12_6_X_2024-01-28-0000/new_FWLITE/logAnalysis.pkl", 
-                    "details": {}
-                }
-            ], 
+            "fwlite": [], 
             "profiling": "not-found", 
             "crab_tests": "inprogress", 
             "compared_tags": "CMSSW_12_6_0_patch1-->CMSSW_12_6_X_2024-01-28-0000", 
@@ -806,14 +799,6 @@
                     }
                 }, 
                 {
-                    "arch": "el8_amd64_gcc10", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/sun/12.6-sun-00/CMSSW_12_6_X_2024-01-28-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 62
-                    }
-                }, 
-                {
                     "arch": "slc7_amd64_gcc10", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.6-sun-00/CMSSW_12_6_X_2024-01-28-0000/new/logAnalysis.pkl", 
@@ -850,12 +835,6 @@
                     "arch": "el8_amd64_gcc11", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/sun/12.6-sun-00/CMSSW_12_6_X_2024-01-28-0000/addOnTests.log", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "el8_amd64_gcc10", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/sun/12.6-sun-00/CMSSW_12_6_X_2024-01-28-0000/addOnTests.log", 
                     "details": {}
                 }, 
                 {
