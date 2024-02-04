@@ -5593,6 +5593,34 @@
     },
     {
         "exitcode": 0,
+        "id": "141.041",
+        "known_error": 0,
+        "name": "RunMuon2023D",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 312
+            },
+            {
+                "errors": 13,
+                "status": "PASSED",
+                "warnings": 614
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "141.042",
         "known_error": 0,
         "name": "RunZeroBias2023D",
@@ -5667,6 +5695,34 @@
                 "errors": 13,
                 "status": "PASSED",
                 "warnings": 498
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "141.046",
+        "known_error": 0,
+        "name": "RunEGamma2023D",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 536
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 596
             },
             {
                 "errors": 26,
@@ -5784,6 +5840,34 @@
                 "errors": 88,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "142.0",
+        "known_error": 0,
+        "name": "RunHIPhysicsRawPrime2023A",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 136
+            },
+            {
+                "errors": 303,
+                "status": "PASSED",
+                "warnings": 1281
+            },
+            {
+                "errors": 73,
+                "status": "PASSED",
+                "warnings": 1
             }
         ]
     },
@@ -11199,6 +11283,29 @@
                 "errors": 21,
                 "status": "PASSED",
                 "warnings": 860
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "2500.002",
+        "known_error": 0,
+        "name": "NANOmc106Xul18v2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 38,
+                "status": "PASSED",
+                "warnings": 801
             },
             {
                 "errors": 0,
