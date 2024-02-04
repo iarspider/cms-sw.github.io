@@ -394,15 +394,6 @@
                             "status_level": "2", 
                             "urlRepo": "https://github.com/cms-sw/cmssw", 
                             "repository": "cms-sw/cmssw", 
-                            "url": "https://github.com/cms-sw/cmssw/pull/43828", 
-                            "label": "43828", 
-                            "color": "#f89406", 
-                            "createdAt": 1706716781
-                        }, 
-                        {
-                            "status_level": "2", 
-                            "urlRepo": "https://github.com/cms-sw/cmssw", 
-                            "repository": "cms-sw/cmssw", 
                             "url": "https://github.com/cms-sw/cmssw/pull/43841", 
                             "label": "43841", 
                             "color": "#f89406", 
@@ -443,6 +434,15 @@
                             "label": "43479", 
                             "color": "#468847", 
                             "createdAt": 1701456863
+                        }, 
+                        {
+                            "status_level": "3", 
+                            "urlRepo": "https://github.com/cms-sw/cmssw", 
+                            "repository": "cms-sw/cmssw", 
+                            "url": "https://github.com/cms-sw/cmssw/pull/43828", 
+                            "label": "43828", 
+                            "color": "#468847", 
+                            "createdAt": 1706716781
                         }, 
                         {
                             "status_level": "3", 
@@ -1889,12 +1889,12 @@
                             "createdAt": 1706703511
                         }, 
                         {
-                            "status_level": "2", 
+                            "status_level": "3", 
                             "urlRepo": "https://github.com/cms-sw/cmssw", 
                             "repository": "cms-sw/cmssw", 
                             "url": "https://github.com/cms-sw/cmssw/pull/43828", 
                             "label": "43828", 
-                            "color": "#f89406", 
+                            "color": "#468847", 
                             "createdAt": 1706716781
                         }
                     ], 
