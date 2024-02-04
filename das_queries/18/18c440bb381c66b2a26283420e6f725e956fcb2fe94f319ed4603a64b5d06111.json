@@ -3,7 +3,44 @@
   "data": [
     {
       "das": {
-        "expire": 1706386293,
+        "expire": 1707034286,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "dbs3:file_lumi4dataset"
+        ]
+      },
+      "file": [
+        {
+          "name": "/store/data/Run2015D/MET/RAW/v1/000/256/677/00000/F0C9D0C3-5D5D-E511-ACB4-02163E0144E1.root"
+        }
+      ],
+      "lumi": [
+        {
+          "number": [
+            474,
+            478,
+            479,
+            481,
+            482,
+            471,
+            485,
+            475,
+            476,
+            477,
+            483,
+            473,
+            480,
+            484,
+            472
+          ]
+        }
+      ]
+    },
+    {
+      "das": {
+        "expire": 1707034286,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -82,7 +119,7 @@
     },
     {
       "das": {
-        "expire": 1706386293,
+        "expire": 1707034286,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -170,7 +207,7 @@
     },
     {
       "das": {
-        "expire": 1706386293,
+        "expire": 1707034286,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -248,7 +285,7 @@
     },
     {
       "das": {
-        "expire": 1706386293,
+        "expire": 1707034286,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -327,7 +364,7 @@
     },
     {
       "das": {
-        "expire": 1706386293,
+        "expire": 1707034286,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -413,7 +450,7 @@
     },
     {
       "das": {
-        "expire": 1706386293,
+        "expire": 1707034286,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -499,7 +536,7 @@
     },
     {
       "das": {
-        "expire": 1706386293,
+        "expire": 1707034286,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -623,43 +660,6 @@
           ]
         }
       ]
-    },
-    {
-      "das": {
-        "expire": 1706386293,
-        "instance": "prod/global",
-        "primary_key": "file.name",
-        "record": 1,
-        "services": [
-          "dbs3:file_lumi4dataset"
-        ]
-      },
-      "file": [
-        {
-          "name": "/store/data/Run2015D/MET/RAW/v1/000/256/677/00000/F0C9D0C3-5D5D-E511-ACB4-02163E0144E1.root"
-        }
-      ],
-      "lumi": [
-        {
-          "number": [
-            474,
-            478,
-            479,
-            481,
-            482,
-            471,
-            485,
-            475,
-            476,
-            477,
-            483,
-            473,
-            480,
-            484,
-            472
-          ]
-        }
-      ]
     }
   ],
   "ecode": "",
@@ -691,9 +691,9 @@
       "run": "256677"
     },
     "system": "",
-    "tstamp": 1706386292
+    "tstamp": 1707034285
   },
   "nresults": 8,
   "status": "ok",
-  "timestamp": 1706386293
+  "timestamp": 1707034286
 }
