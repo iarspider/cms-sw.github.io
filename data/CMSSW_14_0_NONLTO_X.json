@@ -96,7 +96,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc12/www/sun/14.0.NONLTO-sun-00/CMSSW_14_0_NONLTO_X_2024-02-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2705, 
+                        "num_passed": 3480, 
                         "known_failed": 0, 
                         "num_failed": 3
                     }
