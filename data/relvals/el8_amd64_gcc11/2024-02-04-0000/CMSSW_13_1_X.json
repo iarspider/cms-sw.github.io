@@ -5702,6 +5702,34 @@
     },
     {
         "exitcode": 0,
+        "id": "141.046",
+        "known_error": 0,
+        "name": "RunEGamma2023D",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 478
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 1091
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "141.047",
         "known_error": 0,
         "name": "RunTau2023D",
@@ -13663,6 +13691,19 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "13240.303",
+        "known_error": 0,
+        "name": "MinBias_14TeV+2021FS_Run3FSMBMixing",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3
             }
         ]
     },
