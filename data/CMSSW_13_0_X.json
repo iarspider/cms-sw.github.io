@@ -107,9 +107,11 @@
                 }, 
                 {
                     "arch": "slc7_amd64_gcc11", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc11/www/sun/13.0-sun-00/CMSSW_13_0_X_2024-02-04-0000/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/sun/13.0-sun-00/CMSSW_13_0_X_2024-02-04-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }
             ], 
             "ib_date": "2024-02-04-0000-0000", 
