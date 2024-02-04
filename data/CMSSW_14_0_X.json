@@ -156,7 +156,7 @@
                 "slc7_amd64_gcc12": "IB/CMSSW_14_0_X_2024-02-04-0000/slc7_amd64_gcc12"
             }, 
             "piechart": "inprogress", 
-            "flawfinder": "inprogress", 
+            "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
             "igprof": "inprogress", 
@@ -187,12 +187,12 @@
                 {
                     "done": false, 
                     "arch": "el8_amd64_gcc12", 
-                    "passed": true, 
+                    "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc12/www/sun/14.0-sun-00/CMSSW_14_0_X_2024-02-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 53, 
+                        "num_passed": 1094, 
                         "known_failed": 0, 
-                        "num_failed": 0
+                        "num_failed": 2
                     }
                 }
             ], 
