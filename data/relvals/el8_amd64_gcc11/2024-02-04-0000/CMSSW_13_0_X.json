@@ -1,6 +1,29 @@
 [
     {
         "exitcode": 0,
+        "id": "122.0",
+        "known_error": 0,
+        "name": "UpsMM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "140.201",
         "known_error": 0,
         "name": "RunJetMET2022D_reMINI",
@@ -32,6 +55,47 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 116
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "144.6",
+        "known_error": 0,
+        "name": "MinimumBias2010A",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 527
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "2500.332",
+        "known_error": 0,
+        "name": "NANOdata106Xul18v2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 181
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     }
