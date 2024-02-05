@@ -491,6 +491,62 @@
     },
     {
         "exitcode": 0,
+        "id": "141.048",
+        "known_error": 0,
+        "name": "RunMuonEG2023D",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 105
+            },
+            {
+                "errors": 14,
+                "status": "PASSED",
+                "warnings": 388
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "142.0",
+        "known_error": 0,
+        "name": "RunHIPhysicsRawPrime2023A",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 6,
+                "status": "PASSED",
+                "warnings": 119
+            },
+            {
+                "errors": 302,
+                "status": "PASSED",
+                "warnings": 657
+            },
+            {
+                "errors": 73,
+                "status": "PASSED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "159.03",
         "known_error": 0,
         "name": "HydjetQ_MinBias_5020GeV_2022_ppReco",
@@ -1067,6 +1123,34 @@
     },
     {
         "exitcode": 0,
+        "id": "1045.0",
+        "known_error": 0,
+        "name": "RunRawPPS2022B",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 6,
+                "status": "PASSED",
+                "warnings": 26
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1052.0",
         "known_error": 0,
         "name": "RunCosmics2022F",
@@ -1154,6 +1238,29 @@
     },
     {
         "exitcode": 0,
+        "id": "2500.0",
+        "known_error": 0,
+        "name": "NANOmc106Xul16v2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 24,
+                "status": "PASSED",
+                "warnings": 582
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "2500.001",
         "known_error": 0,
         "name": "NANOmc106Xul17v2",
@@ -1190,6 +1297,29 @@
                 "errors": 38,
                 "status": "PASSED",
                 "warnings": 656
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "2500.011",
+        "known_error": 0,
+        "name": "NANOdata106Xul17v2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 131
             },
             {
                 "errors": 0,
@@ -1267,6 +1397,72 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "20834.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2026D88",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 76
+            },
+            {
+                "errors": 28,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "23634.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2026D95",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 74
+            },
+            {
+                "errors": 28,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
             }
         ]
     },
