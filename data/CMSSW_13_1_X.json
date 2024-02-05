@@ -98,18 +98,20 @@
             "dqm_tests": "not-found", 
             "utests": [
                 {
+                    "arch": "el9_amd64_gcc11", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el9_amd64_gcc11/www/sun/13.1-sun-23/CMSSW_13_1_X_2024-02-04-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }, 
+                {
                     "arch": "el8_aarch64_gcc11", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/sun/13.1-sun-23/CMSSW_13_1_X_2024-02-04-2300/unitTests-summary.log", 
                     "details": {
                         "num_fails": "0"
                     }
-                }, 
-                {
-                    "arch": "el9_amd64_gcc11", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/el9_amd64_gcc11/www/sun/13.1-sun-23/CMSSW_13_1_X_2024-02-04-2300/new/logAnalysis.pkl']", 
-                    "details": {}
                 }, 
                 {
                     "arch": "el9_aarch64_gcc11", 
@@ -132,7 +134,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el9_amd64_gcc11/www/sun/13.1-sun-23/CMSSW_13_1_X_2024-02-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 6, 
+                        "num_passed": 413, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -143,9 +145,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/sun/13.1-sun-23/CMSSW_13_1_X_2024-02-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2127, 
+                        "num_passed": 2755, 
                         "known_failed": 0, 
-                        "num_failed": 55
+                        "num_failed": 57
                     }
                 }
             ], 
