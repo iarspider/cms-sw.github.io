@@ -201,12 +201,12 @@
                 {
                     "done": false, 
                     "arch": "el8_ppc64le_gcc12", 
-                    "passed": true, 
+                    "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_ppc64le_gcc12/www/sun/13.3-sun-23/CMSSW_13_3_X_2024-02-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 429, 
+                        "num_passed": 2038, 
                         "known_failed": 3, 
-                        "num_failed": 0
+                        "num_failed": 2
                     }
                 }
             ], 
@@ -269,7 +269,10 @@
             ], 
             "material_budget_v2": "not-found", 
             "check-headers": "passed", 
-            "static_checks_v2": "inprogress", 
+            "static_checks_v2": {
+                "status": "passed", 
+                "arch": "el8_amd64_gcc12"
+            }, 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
             "dupDict": [
@@ -295,7 +298,7 @@
                 }
             ], 
             "lizard": "found", 
-            "static_checks": "inprogress", 
+            "static_checks": "el8_amd64_gcc12:", 
             "isIB": true, 
             "inProgress": false, 
             "addons": [
