@@ -18,17 +18,7 @@
                         "author_login": "cms-sw"
                     }
                 ], 
-                "el8_amd64_gcc12": [
-                    {
-                        "hash": "8e4af064c1eb9490b678c08de329fdf5076d6363", 
-                        "title": "Update tag for RecoTauTag-TrainingFiles to V00-09-00", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/8982", 
-                        "number": "8982", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }
-                ], 
+                "el8_amd64_gcc12": [], 
                 "el8_aarch64_gcc12": [
                     {
                         "hash": "8e4af064c1eb9490b678c08de329fdf5076d6363", 
@@ -43,7 +33,7 @@
             }, 
             "cmsdist_compared_tags": {
                 "el8_ppc64le_gcc12": "IB/CMSSW_14_0_ROOT6_X_2024-01-31-2300/el8_ppc64le_gcc12..IB/CMSSW_14_0_X/rootmaster", 
-                "el8_amd64_gcc12": "IB/CMSSW_14_0_ROOT6_X_2024-01-30-2300/el8_amd64_gcc12..IB/CMSSW_14_0_X/rootmaster", 
+                "el8_amd64_gcc12": "IB/CMSSW_14_0_ROOT6_X_2024-02-04-2300/el8_amd64_gcc12..IB/CMSSW_14_0_X/rootmaster", 
                 "el8_aarch64_gcc12": "IB/CMSSW_14_0_ROOT6_X_2024-01-31-2300/el8_aarch64_gcc12..IB/CMSSW_14_0_X/rootmaster"
             }, 
             "cmsdistTags": {}, 
@@ -52,14 +42,79 @@
             "fwlite": [], 
             "profiling": "not-found", 
             "crab_tests": "not-found", 
-            "compared_tags": "CMSSW_14_0_ROOT6_X_2024-02-02-2300-->CMSSW_14_0_X", 
+            "compared_tags": "CMSSW_14_0_ROOT6_X_2024-02-04-2300-->CMSSW_14_0_X", 
             "dqm_tests": "not-found", 
             "utests": [], 
-            "ib_date": "2024-02-02-2300-0001", 
+            "ib_date": "2024-02-04-2300-0001", 
             "relvals": [], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_14_0_ROOT6_X", 
             "release_name": "CMSSW_14_0_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "base_branch": "CMSSW_14_0_X", 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "check-headers": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "el8_amd64_gcc12"
+            ], 
+            "cmsdist_merged_prs": {
+                "el8_amd64_gcc12": [
+                    {
+                        "hash": "8e4af064c1eb9490b678c08de329fdf5076d6363", 
+                        "title": "Update tag for RecoTauTag-TrainingFiles to V00-09-00", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8982", 
+                        "number": "8982", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": {
+                "el8_amd64_gcc12": "IB/CMSSW_14_0_ROOT6_X_2024-01-30-2300/el8_amd64_gcc12..IB/CMSSW_14_0_ROOT6_X_2024-02-04-2300/el8_amd64_gcc12"
+            }, 
+            "cmsdistTags": {
+                "el8_amd64_gcc12": "IB/CMSSW_14_0_ROOT6_X_2024-02-04-2300/el8_amd64_gcc12"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "fwlite": [], 
+            "profiling": "not-found", 
+            "crab_tests": "not-found", 
+            "compared_tags": "CMSSW_14_0_ROOT6_X_2024-02-02-2300-->CMSSW_14_0_ROOT6_X_2024-02-04-2300", 
+            "dqm_tests": "not-found", 
+            "utests": [
+                {
+                    "arch": "el8_amd64_gcc12", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/el8_amd64_gcc12/www/sun/14.0.ROOT6-sun-23/CMSSW_14_0_ROOT6_X_2024-02-04-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "ib_date": "2024-02-04-2300-0000", 
+            "relvals": [], 
+            "igprof": "not-found", 
+            "release_queue": "CMSSW_14_0_ROOT6_X", 
+            "release_name": "CMSSW_14_0_ROOT6_X_2024-02-04-2300", 
             "comp_baseline": "not-found", 
             "gpu_utests": [], 
             "material_budget_comparison": "not-found", 
@@ -85,16 +140,30 @@
             ], 
             "base_branch": "CMSSW_14_0_X", 
             "invalid_includes": [], 
-            "builds": [], 
+            "builds": [
+                {
+                    "arch": "el8_amd64_gcc12", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc12/www/sun/14.0.ROOT6-sun-23/CMSSW_14_0_ROOT6_X_2024-02-04-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 657
+                    }
+                }
+            ], 
             "material_budget_v2": "not-found", 
             "check-headers": "not-found", 
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [], 
+            "dupDict": [
+                {
+                    "arch": "el8_amd64_gcc12", 
+                    "passed": "passed"
+                }
+            ], 
             "static_checks_failures": "not-found", 
             "static_checks": "not-found", 
-            "isIB": false, 
+            "isIB": true, 
             "inProgress": false, 
             "addons": [], 
             "hlt_tests": "not-found"

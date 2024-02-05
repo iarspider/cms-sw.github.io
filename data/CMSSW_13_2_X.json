@@ -119,9 +119,11 @@
                 }, 
                 {
                     "arch": "el9_amd64_gcc11", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/el9_amd64_gcc11/www/sun/13.2-sun-23/CMSSW_13_2_X_2024-02-04-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el9_amd64_gcc11/www/sun/13.2-sun-23/CMSSW_13_2_X_2024-02-04-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }, 
                 {
                     "arch": "el8_aarch64_gcc11", 
@@ -144,7 +146,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/sun/13.2-sun-23/CMSSW_13_2_X_2024-02-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3175, 
+                        "num_passed": 3767, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -155,7 +157,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el9_amd64_gcc11/www/sun/13.2-sun-23/CMSSW_13_2_X_2024-02-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 10, 
+                        "num_passed": 479, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -163,12 +165,12 @@
                 {
                     "done": false, 
                     "arch": "el8_aarch64_gcc11", 
-                    "passed": false, 
+                    "passed": true, 
                     "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/sun/13.2-sun-23/CMSSW_13_2_X_2024-02-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 690, 
-                        "known_failed": 0, 
-                        "num_failed": 10
+                        "num_passed": 1243, 
+                        "known_failed": 34, 
+                        "num_failed": 0
                     }
                 }
             ], 
@@ -265,7 +267,7 @@
                     "details": {}
                 }
             ], 
-            "hlt_tests": "inprogress"
+            "hlt_tests": "error"
         }, 
         {
             "comp_baseline_state": "errors", 
