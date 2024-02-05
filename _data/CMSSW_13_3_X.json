@@ -63,7 +63,10 @@
         }, 
         {
             "comp_baseline_state": "errors", 
-            "reco_gpu_mods": "inprogress", 
+            "reco_gpu_mods": {
+                "status": "passed", 
+                "data": "/el8_amd64_gcc12/11834.59621/step3_gpu_nsys.txt"
+            }, 
             "python3_tests": [], 
             "tests_archs": [
                 "el8_amd64_gcc12", 
@@ -100,9 +103,11 @@
             "utests": [
                 {
                     "arch": "el8_amd64_gcc12", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/el8_amd64_gcc12/www/sun/13.3-sun-23/CMSSW_13_3_X_2024-02-04-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc12/www/sun/13.3-sun-23/CMSSW_13_3_X_2024-02-04-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }, 
                 {
                     "arch": "slc7_amd64_gcc12", 
@@ -119,7 +124,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc12/www/sun/13.3-sun-23/CMSSW_13_3_X_2024-02-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 7, 
+                        "num_passed": 12, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -130,7 +135,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc12/www/sun/13.3-sun-23/CMSSW_13_3_X_2024-02-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2, 
+                        "num_passed": 5, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
