@@ -182,7 +182,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el9_amd64_gcc12/www/sun/13.3-sun-23/CMSSW_13_3_X_2024-02-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2181, 
+                        "num_passed": 2401, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -193,8 +193,8 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el8_ppc64le_gcc12/www/sun/13.3-sun-23/CMSSW_13_3_X_2024-02-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 139, 
-                        "known_failed": 0, 
+                        "num_passed": 259, 
+                        "known_failed": 3, 
                         "num_failed": 0
                     }
                 }

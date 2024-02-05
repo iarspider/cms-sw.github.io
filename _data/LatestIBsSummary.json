@@ -116,7 +116,7 @@
         }, 
         "el9_amd64_gcc12": {
             "status": "unknown", 
-            "latest_IB": "CMSSW_14_0_X_2024-01-28-2300"
+            "latest_IB": "CMSSW_14_0_X_2024-01-29-2300"
         }, 
         "el9_aarch64_gcc12": {
             "status": "unknown", 
