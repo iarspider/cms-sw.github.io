@@ -282,7 +282,7 @@
         }, 
         "el9_aarch64_gcc11": {
             "status": "unknown", 
-            "latest_IB": "CMSSW_13_1_X_2024-01-28-2300"
+            "latest_IB": "CMSSW_13_1_X_2024-02-04-2300"
         }, 
         "slc7_amd64_gcc11": {
             "status": "unknown", 
